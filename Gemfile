@@ -26,7 +26,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+# Use the faker gem to create a db
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
