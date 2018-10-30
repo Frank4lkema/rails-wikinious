@@ -1,3 +1,32 @@
-// Place all the styles related to the articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.banner{
+  background-image: url("https://picsum.photos/1200/1800?image=125");
+  background-size:cover;
+  background-position: bottom;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border: solid 1px #0C2238;
+  box-shadow: 10px 10px 8px #888888;
+  h1{
+    margin: 0;
+    color:black;
+  }
+}
+
+body{
+  margin: 0;
+  background-color:#BAB4B2;
+  h1{
+    color:white;
+  }
+}
+
+
